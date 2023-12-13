@@ -1,11 +1,16 @@
 import './App.css';
-import { useState } from 'react';
+// eslint-disable-next-line no-unused-vars
+import { BrowserRouter as Router } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import AllRoutes from './AllRoutes';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
-      <p>How are you.</p>
+      <Router>
+        <Navbar />
+        <AllRoutes />
+      </Router>
     </div>
   );
 }
