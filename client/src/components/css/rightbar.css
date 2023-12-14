@@ -1,7 +1,7 @@
 .right-sidebar {
   float: right;
   width: 300px;
-  margin: 40px 0px 15px 24px;
+  margin: 40px 0px;
   font-size: 15px;
 }
 
@@ -20,22 +20,15 @@
   font-size: 13px;
 }
 
-.right-sidebar-div-1 {
+.right-sidebar-div {
   background-color: #fdf7e2;
   padding: 15px;
   border: solid 1px #f1e5bc;
-}
-
-.right-sidebar-div-1 .right-sidebar-div-2 {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-evenly;
+  flex-direction: row;
 }
-
-.right-sidebar-div-1 .right-sidebar-div-2 p {
-  padding-left: 10px;
-  margin-top: 0%;
-  font-size: 13px;
+img {
+  padding-right: 20px;
 }
 
 .widget-tags {
